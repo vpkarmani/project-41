@@ -132,7 +132,7 @@ class Game{
                       }
 
                       if(obstacleGroup.isTouching(players)){
-                        gameState = 0;
+                        gameState = 2;
                        // gameState = 1;
                        // gameState = 2;
                        // gameState = 3;
@@ -169,13 +169,13 @@ class Game{
     {       
             var x, y;
             //x= 200;
-            x= 200;
+           
             //x = random(0, width-100);
             x = random(0, width-100);
             //x = random(0);
-            x = random(0);
+           
             //x = random();
-            x = random();
+            
             
             
             y = 0
